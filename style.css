@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* CSS For the Header section */
+header {
+  width: 100%;
+}
+
+.header-banner {
+  height: 100%;
+  width: 100%;
+  background-image: url("images/banner/banner_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom:50px;
+}
+
+.primary-btn {
+  border: none;
+  color: white;
+  padding: 21px 25px 20px 26px;
+  background: #f15b22;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: right;
+cursor: pointer;
+  
+  
+}
+
+.header-banner-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: right;
+  padding-top: 280px;
+  padding-right: 100px;
+}
+
+.header-banner-title{
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  text-align: right;
+  color: #151414;
+  width: 525px;
+  height: 228px;
+  margin-bottom: 24px;
+}
+
+.header-banner-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: right;
+  color: #444343;
+  width: 494px;
+  height: 78px;
+  margin-bottom: 32px;
+}
+
+/* CSS For the information part */
+.failure-section {
+  width: 100%;
+  height: 80vh;
+}
+
+.failure-details-information{
+  display: flex;
+ justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+}
+
+.failure-information{
+  width: 420px;
+  height: 400px;
+  margin-left: 87px;
+  margin-top: 170px;
+  padding: 5px;
+}
+
+.failure-info-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+}
+
+.failure-info-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.information ul li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+
+.information ul li span {
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+/* CSS For the Plan section */
+
+.my-plans {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 180px;
+}
+
+.plan-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  margin-bottom: 60px;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 4rem;
+}
+
+.plan img {
+  width: 95px;
+  height: 95px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.plan h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #151414;
+  margin-bottom: 20px;
+}
+
+.plan p {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #737272;
+}
+
+/* CSS for the appointment section */
+
+.appoinment-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.appoinment {
+  margin-top: 130px;
+  width: 1140px;
+  height: 300px;
+  background-image: url("./images/watch.png"),
+    linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  background-blend-mode: overlay;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+}
+
+.appoinment-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+  margin-left: 70px;
+  margin-bottom: 25px;
+  padding-top: 60px;
+}
+
+.appointment-btn {
+  background-color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #f15b22;
+  margin-left: 70px;
+  margin-bottom: 70px;
+}
+
+
+/* Blogs section*/
+.my-blogs {
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blog-description {
+  font-size: 22px;
+  width: 40%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.blog {
+  width: 350px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 9px 11px 25px 1px #000;
+  border-radius: 20px;
+}
+.blog img {
+  width: 100%;
+  height: 350px;
+  border-radius: 5px 5px 0 0;
+}
+.container-blog {
+  padding: 22px 26px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogs-card {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 30px;
+}
+
+.blog-btn {
+  padding: 5px 15px;
+  background-color: white;
+  border: 2px solid tomato;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* CSS for  the Footer section */
+
+footer {
+  margin-top: 130px;
+  height: 500px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.footer-section {
+  width: 485px;
+  height: 317px;
+}
+
+.footer-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #f8f8f8;
+  margin-bottom: 16px;
+}
+
+.footer-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.footer-section p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  padding-bottom: 16px;
+}
+
+.footer-section img {
+  margin-right: 18px;
+}
+
+.subscribe-section {
+  width: 325px;
+  height: 204px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.subscribe-title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.subscribe-section input {
+  padding: 22px 160px 22px 22px;
+  background-color: black;
+  border: 1px solid white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #f3f3f3;
+  border-radius: 10px;
+}
+
+.subscirbe-btn {
+  background-color: white;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f15b22;
+  border-radius: 10px;
+  margin-top: 16px;
+  cursor: pointer;
+}
